@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es5",
+        "module": "es6",
+        "outDir": "public",
+        "sourceMap": true,
+        "jsx": "react",
+        "rootDir": "app",
+        "moduleResolution": "node",
+        "lib": [ "es2015", "dom", "es5", "es6"] 
+    },
+    "compileOnSave": false,
+    "exclude": [
+        "node_modules"
+    ],    
+}
